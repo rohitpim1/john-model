@@ -306,3 +306,79 @@ body {
         grid-template-columns: 120px 80px 100px;
     }
 }
+
+/*awards*/
+
+.award .box{
+    width: 90%;
+    height: auto;
+    padding: 100px;
+    background-color: #181717;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.award .box .box1 {
+    width:400px;
+    height: 400px;
+    background-image: url(/assests/a1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.award .box .box2 {
+    width:400px;
+    height: 400px;
+    background-image: url(/assests/a2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.award .box .box3 {
+    width:400px;
+    height: 400px;
+    background-image: url(/assests/a3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.award .box .box4 {
+    width:400px;
+    height: 400px;
+    background-image: url(/assests/a4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media  screen and (max-width:425px) {
+    .award .box{
+        padding: 50px;
+    }
+    .award .box .box1,
+    .award .box .box2,
+    .award .box .box3,
+    .award .box .box4{
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media  screen and (max-width:375px) {
+    .award .box{
+        padding: 20px;
+    }
+
+    .award .box .box1,
+    .award .box .box2,
+    .award .box .box3,
+    .award .box .box4{
+        width: 250px;
+        height: 150px;
+    }
+}
