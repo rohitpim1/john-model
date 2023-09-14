@@ -199,3 +199,110 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+
+.sub-hero2 {
+    width: 100%;
+    height: 800px;
+    background: url(/assests/g6\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+/*gallery*/
+
+.gallery{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery .gallery-pic{
+ margin: 20px auto;
+ width: 800px;
+ height: 600px;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ -ms-border-radius: 100px;
+ -o-border-radius: 100px;
+ cursor: pointer;
+ 
+ display: grid;
+  grid-template-columns: 400px 200px 200px;
+  grid-template-rows: auto;
+
+  grid-template-areas: 
+    "pics1 pics2 pics3"
+    "pics1 pics4 pics5"
+    "pics6 pics6 pics5";
+}
+
+.gallery .gallery-pic .pic1{
+    grid-area: pics1;
+    background-image: url(/assests/pic1.png);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .gallery-pic .pic2{
+    grid-area: pics2;
+    background-image: url(/assests/pic2.png);
+    background-position: center;
+    background-size: cover;
+}
+.gallery .gallery-pic .pic3{
+    grid-area: pics3;
+    background-image: url(/assests/pic3.png);
+    background-position: center;
+    background-size: cover;
+  
+}
+.gallery .gallery-pic .pic4{
+    grid-area: pics4;
+    background-image: url(/assests/pic4.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.gallery .gallery-pic .pic5{
+    grid-area: pics5;
+    background-image: url(/assests/pic5.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+.gallery .gallery-pic .pic6{
+    grid-area: pics6;
+    background-image: url(/assests/pic6.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+@media screen  and (max-width:1024px){
+    .gallery .gallery-pic{
+        margin: 0 auto;
+    }
+}
+
+@media screen  and (max-width:768px){
+    .gallery .gallery-pic{
+        width: 600px;
+        grid-template-columns: 250px 150px 150px;
+    }
+}
+
+@media screen  and (max-width:425px){
+    .gallery .gallery-pic{
+        width: 400px;
+        grid-template-columns: 150px 120px 120px;
+    }
+}
+@media screen  and (max-width:375px){
+    .gallery .gallery-pic{
+        width: 300px;
+        grid-template-columns: 120px 80px 100px;
+    }
+}
