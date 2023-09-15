@@ -44,7 +44,7 @@ li {
 }
 
 .heading {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--heading-color);
   letter-spacing: 3px;
@@ -60,12 +60,12 @@ li {
 }
 
 .text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
   color: var(--secondary-color);
-  line-height: 45px;
-  word-spacing: 3px;
-  letter-spacing: 2px;
+  line-height: 35px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 425px) {
@@ -77,6 +77,33 @@ li {
     word-spacing: 0px;
     letter-spacing: 0px;
   }
+}
+
+.btn{
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  background-color: var(--primary-color);
+  color: #ffff;
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .btn{
+    width: 150px;
+    height: 30px;
+    font-size: 1.5rem;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .btn{
+    width: 100px;
+    height: 20px;
+    font-size: 1rem;
+}
 }
 
 body {
@@ -312,11 +339,11 @@ body {
 .award .box{
     width: 90%;
     height: auto;
-    padding: 100px;
+    padding: 20px;
     background-color: #181717;
     display: flex;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -324,37 +351,49 @@ body {
 
 
 .award .box .box1 {
-    width:400px;
-    height: 400px;
+    width:300px;
+    height: 300px;
     background-image: url(/assests/a1.png);
     background-position: center;
     background-size: cover;
 }
 
 .award .box .box2 {
-    width:400px;
-    height: 400px;
+    width:300px;
+    height: 300px;
     background-image: url(/assests/a2.png);
     background-position: center;
     background-size: cover;
 }
 
 .award .box .box3 {
-    width:400px;
-    height: 400px;
+    width:300px;
+    height: 300px;
     background-image: url(/assests/a3.png);
     background-position: center;
     background-size: cover;
 }
 
 .award .box .box4 {
-    width:400px;
-    height: 400px;
+    width:300px;
+    height: 300px;
     background-image: url(/assests/a4.png);
     background-position: center;
     background-size: cover;
 }
 
+@media  screen and (max-width:768px) {
+  .award .box{
+      padding: 50px;
+  }
+  .award .box .box1,
+  .award .box .box2,
+  .award .box .box3,
+  .award .box .box4{
+      width: 200px;
+      height: 200px;
+  }
+}
 
 @media  screen and (max-width:425px) {
     .award .box{
