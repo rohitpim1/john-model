@@ -21,17 +21,23 @@
   </head>
   <body>
     <nav class="header containers">
-      <div class="lo logo">LOGO</div>
+      <div class="lo logo">
+        <a href="/index.html" style="text-decoration: none">logo</a>
+      </div>
       <ul class="menu">
         <li class="menu-item"><a href="#about">About Me</a></li>
         <li class="menu-item"><a href="#gallery">Gallery</a></li>
-        <li class="menu-item"><a href="">Get In Touch</a></li>
+        <li class="menu-item"><a href="#contact">Get In Touch</a></li>
       </ul>
     </nav>
 
     <section class="hero"></section>
 
-    <section class="about containers" id="about">
+    <section
+      class="about containers"
+      style="margin-top: 50px; margin-bottom: 50px"
+      id="about"
+    >
       <h1 class="heading my-4 text-center">About Me</h1>
       <p class="text">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quidem
@@ -58,7 +64,11 @@
 
     <section class="sub-hero"></section>
 
-    <section class="gallery containers" id="gallery">
+    <section
+      class="gallery containers"
+      style="margin-top: 50px; margin-bottom: 50px"
+      id="gallery"
+    >
       <h1 class="heading my-4 text-center">Gallery</h1>
       <div class="gallery-pic">
         <div class="pic1"></div>
@@ -68,20 +78,41 @@
         <div class="pic5"></div>
         <div class="pic6"></div>
       </div>
-      <a class="btn">View More</a>
+      <a class="btn" href="/gallery.html">View More</a>
     </section>
 
     <section class="sub-hero2"></section>
-   
-    <section class="award containers" id="award">
-        <h1 class="heading my-4 text-center">Awards</h1>
-     <div class="box">
+
+    <section class="award containers" style="margin-top: 50px" id="award">
+      <h1 class="heading my-4 text-center">Awards</h1>
+      <div class="box">
         <div class="box1"></div>
         <div class="box2"></div>
         <div class="box3"></div>
         <div class="box4"></div>
-     </div>
+      </div>
     </section>
+
+    <section class="contact containers" style="margin-top: 50px" id="contact">
+      <h1 class="heading my-4 text-center">Get In Touch</h1>
+      <div class="box">
+        <div class="box1">
+          <p class="text">Let's Work Together</p>
+          <p class="text">Model@gmail.com</p>
+          <a class="btn" style="border-radius: 10px" href="">Watsapp Me</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="containers">
+      <p
+        class="text"
+        style="padding-top: 50px; padding-bottom: 10px; text-align: center"
+      >
+        @models copywright reserved.
+      </p>
+    </footer>
+
     <script src="/js/index.js"></script>
   </body>
 </html>

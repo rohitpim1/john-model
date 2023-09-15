@@ -79,31 +79,31 @@ li {
   }
 }
 
-.btn{
+.btn {
   margin-top: 20px;
   width: 200px;
   height: 35px;
   background-color: var(--primary-color);
-  color: #ffff;
+  color: black;
   font-size: 1.8rem;
   outline: none;
   border: none;
 }
 
 @media screen and (max-width: 768px) {
-  .btn{
+  .btn {
     width: 150px;
     height: 30px;
     font-size: 1.5rem;
-}
+  }
 }
 
 @media screen and (max-width: 425px) {
-  .btn{
+  .btn {
     width: 100px;
     height: 20px;
     font-size: 1rem;
-}
+  }
 }
 
 body {
@@ -228,196 +228,350 @@ body {
 }
 
 .sub-hero2 {
-    width: 100%;
-    height: 800px;
-    background: url(/assests/g6\ 1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
+  width: 100%;
+  height: 800px;
+  background: url(/assests/g6\ 1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
 
 /*gallery*/
 
-.gallery{
-    margin-top: 70px;
-    margin-bottom: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.gallery .gallery-pic{
- margin: 20px auto;
- width: 800px;
- height: 600px;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
- -ms-border-radius: 100px;
- -o-border-radius: 100px;
- cursor: pointer;
- 
- display: grid;
+.gallery .gallery-pic {
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  cursor: pointer;
+
+  display: grid;
   grid-template-columns: 400px 200px 200px;
   grid-template-rows: auto;
 
-  grid-template-areas: 
+  grid-template-areas:
     "pics1 pics2 pics3"
     "pics1 pics4 pics5"
     "pics6 pics6 pics5";
 }
 
-.gallery .gallery-pic .pic1{
-    grid-area: pics1;
-    background-image: url(/assests/pic1.png);
-    background-position: center;
-    background-size: cover;
+.gallery .gallery-pic .pic1 {
+  background-image: url(/assests/pic1.png);
+  background-position: center;
+  background-size: cover;
 }
-.gallery .gallery-pic .pic2{
-    grid-area: pics2;
-    background-image: url(/assests/pic2.png);
-    background-position: center;
-    background-size: cover;
+.gallery .gallery-pic .pic2 {
+  grid-area: pics2;
+  background-image: url(/assests/pic2.png);
+  background-position: center;
+  background-size: cover;
 }
-.gallery .gallery-pic .pic3{
-    grid-area: pics3;
-    background-image: url(/assests/pic3.png);
-    background-position: center;
-    background-size: cover;
-  
+.gallery .gallery-pic .pic3 {
+  grid-area: pics3;
+  background-image: url(/assests/pic3.png);
+  background-position: center;
+  background-size: cover;
 }
-.gallery .gallery-pic .pic4{
-    grid-area: pics4;
-    background-image: url(/assests/pic4.png);
-    background-position: center;
-    background-size: cover;
-   
+.gallery .gallery-pic .pic4 {
+  grid-area: pics4;
+  background-image: url(/assests/pic4.png);
+  background-position: center;
+  background-size: cover;
 }
-.gallery .gallery-pic .pic5{
-    grid-area: pics5;
-    background-image: url(/assests/pic5.png);
-    background-position: center;
-    background-size: cover;
-   
+.gallery .gallery-pic .pic5 {
+  grid-area: pics5;
+  background-image: url(/assests/pic5.png);
+  background-position: center;
+  background-size: cover;
 }
-.gallery .gallery-pic .pic6{
-    grid-area: pics6;
-    background-image: url(/assests/pic6.png);
-    background-position: center;
-    background-size: cover;
-    
+.gallery .gallery-pic .pic6 {
+  grid-area: pics6;
+  background-image: url(/assests/pic6.png);
+  background-position: center;
+  background-size: cover;
 }
 
-@media screen  and (max-width:1024px){
-    .gallery .gallery-pic{
-        margin: 0 auto;
-    }
+@media screen and (max-width: 1024px) {
+  .gallery .gallery-pic {
+    margin: 0 auto;
+  }
 }
 
-@media screen  and (max-width:768px){
-    .gallery .gallery-pic{
-        width: 600px;
-        grid-template-columns: 250px 150px 150px;
-    }
+@media screen and (max-width: 768px) {
+  .gallery .gallery-pic {
+    width: 600px;
+    grid-template-columns: 250px 150px 150px;
+  }
 }
 
-@media screen  and (max-width:425px){
-    .gallery .gallery-pic{
-        width: 400px;
-        grid-template-columns: 150px 120px 120px;
-    }
+@media screen and (max-width: 425px) {
+  .gallery .gallery-pic {
+    width: 400px;
+    grid-template-columns: 150px 120px 120px;
+  }
 }
-@media screen  and (max-width:375px){
-    .gallery .gallery-pic{
-        width: 300px;
-        grid-template-columns: 120px 80px 100px;
-    }
+@media screen and (max-width: 375px) {
+  .gallery .gallery-pic {
+    width: 300px;
+    grid-template-columns: 120px 80px 100px;
+  }
 }
 
 /*awards*/
 
-.award .box{
-    width: 90%;
-    height: auto;
-    padding: 20px;
-    background-color: #181717;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.award .box {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #181717;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-
-
 .award .box .box1 {
-    width:300px;
-    height: 300px;
-    background-image: url(/assests/a1.png);
-    background-position: center;
-    background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-image: url(/assests/a1.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .award .box .box2 {
-    width:300px;
-    height: 300px;
-    background-image: url(/assests/a2.png);
-    background-position: center;
-    background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-image: url(/assests/a2.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .award .box .box3 {
-    width:300px;
-    height: 300px;
-    background-image: url(/assests/a3.png);
-    background-position: center;
-    background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-image: url(/assests/a3.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .award .box .box4 {
-    width:300px;
-    height: 300px;
-    background-image: url(/assests/a4.png);
-    background-position: center;
-    background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-image: url(/assests/a4.png);
+  background-position: center;
+  background-size: cover;
 }
 
-@media  screen and (max-width:768px) {
-  .award .box{
-      padding: 50px;
+@media screen and (max-width: 768px) {
+  .award .box {
+    padding: 50px;
   }
   .award .box .box1,
   .award .box .box2,
   .award .box .box3,
-  .award .box .box4{
-      width: 200px;
-      height: 200px;
+  .award .box .box4 {
+    width: 200px;
+    height: 200px;
   }
 }
 
-@media  screen and (max-width:425px) {
-    .award .box{
-        padding: 50px;
-    }
-    .award .box .box1,
-    .award .box .box2,
-    .award .box .box3,
-    .award .box .box4{
-        width: 250px;
-        height: 150px;
-    }
+@media screen and (max-width: 425px) {
+  .award .box {
+    padding: 50px;
+  }
+  .award .box .box1,
+  .award .box .box2,
+  .award .box .box3,
+  .award .box .box4 {
+    width: 250px;
+    height: 150px;
+  }
 }
 
-@media  screen and (max-width:375px) {
-    .award .box{
-        padding: 20px;
-    }
+@media screen and (max-width: 375px) {
+  .award .box {
+    padding: 20px;
+  }
 
-    .award .box .box1,
-    .award .box .box2,
-    .award .box .box3,
-    .award .box .box4{
-        width: 250px;
-        height: 150px;
-    }
+  .award .box .box1,
+  .award .box .box2,
+  .award .box .box3,
+  .award .box .box4 {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.contact {
+}
+
+.contact .box .box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  background-color: #181717;
+}
+
+.footer {
+  text-align: center;
+}
+
+/*galleryPAge*/
+.galleryPage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galleryPage .galleryPage-pic {
+  margin: 20px auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.galleryPage .galleryPage-pic .pic1 {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-image: url(/assests/pic1.png);
+  background-position: center;
+  background-size: cover;
+}
+.galleryPage .galleryPage-pic .pic2 {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-image: url(/assests/pic2.png);
+  background-position: center;
+  background-size: cover;
+}
+.galleryPage .galleryPage-pic .pic3 {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-image: url(/assests/pic3.png);
+  background-position: center;
+  background-size: cover;
+}
+.galleryPage .galleryPage-pic .pic4 {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-image: url(/assests/pic4.png);
+  background-position: center;
+  background-size: cover;
+}
+.galleryPage .galleryPage-pic .pic5 {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-image: url(/assests/pic5.png);
+  background-position: center;
+  background-size: cover;
+}
+.galleryPage .galleryPage-pic .pic6 {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  background-image: url(/assests/pic6.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .galleryPage .galleryPage-pic {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galleryPage .galleryPage-pic {
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .galleryPage .galleryPage-pic {
+  }
+}
+@media screen and (max-width: 375px) {
+  .galleryPage .galleryPage-pic {
+  }
+}
+
+.mod {
+  position: absolute;
+  width: 50%;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 500px;
+  display: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  position: relative;
+  transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+}
+
+.mod .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ffff;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .galleryPage .galleryPage-pic .pic1,
+  .galleryPage .galleryPage-pic .pic2,
+  .galleryPage .galleryPage-pic .pic3,
+  .galleryPage .galleryPage-pic .pic4,
+  .galleryPage .galleryPage-pic .pic5,
+  .galleryPage .galleryPage-pic .pic6 {
+    width: 200px;
+    height: 250px;
+  }
+
+  .mod {
+    width: 100%;
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mod {
+    width: 100%;
+    height: 400px;
+  }
 }
