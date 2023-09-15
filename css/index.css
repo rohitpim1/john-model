@@ -221,7 +221,7 @@ body {
 .sub-hero {
   width: 100%;
   height: 800px;
-  background: url(/assests/img2\ 1.png);
+  background: url(../assests/img2\ 1.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -230,7 +230,7 @@ body {
 .sub-hero2 {
   width: 100%;
   height: 800px;
-  background: url(/assests/g6\ 1.png);
+  background: url(../assests/g6\ 1.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -266,37 +266,37 @@ body {
 }
 
 .gallery .gallery-pic .pic1 {
-  background-image: url(/assests/pic1.png);
+  background-image: url(../assests/pic1.png);
   background-position: center;
   background-size: cover;
 }
 .gallery .gallery-pic .pic2 {
   grid-area: pics2;
-  background-image: url(/assests/pic2.png);
+  background-image: url(../assests/pic2.png);
   background-position: center;
   background-size: cover;
 }
 .gallery .gallery-pic .pic3 {
   grid-area: pics3;
-  background-image: url(/assests/pic3.png);
+  background-image: url(../assests/pic3.png);
   background-position: center;
   background-size: cover;
 }
 .gallery .gallery-pic .pic4 {
   grid-area: pics4;
-  background-image: url(/assests/pic4.png);
+  background-image: url(../assests/pic4.png);
   background-position: center;
   background-size: cover;
 }
 .gallery .gallery-pic .pic5 {
   grid-area: pics5;
-  background-image: url(/assests/pic5.png);
+  background-image: url(../assests/pic5.png);
   background-position: center;
   background-size: cover;
 }
 .gallery .gallery-pic .pic6 {
   grid-area: pics6;
-  background-image: url(/assests/pic6.png);
+  background-image: url(../assests/pic6.png);
   background-position: center;
   background-size: cover;
 }
@@ -344,7 +344,7 @@ body {
 .award .box .box1 {
   width: 300px;
   height: 300px;
-  background-image: url(/assests/a1.png);
+  background-image: url(../assests/a1.png);
   background-position: center;
   background-size: cover;
 }
@@ -352,7 +352,7 @@ body {
 .award .box .box2 {
   width: 300px;
   height: 300px;
-  background-image: url(/assests/a2.png);
+  background-image: url(../assests/a2.png);
   background-position: center;
   background-size: cover;
 }
@@ -360,7 +360,7 @@ body {
 .award .box .box3 {
   width: 300px;
   height: 300px;
-  background-image: url(/assests/a3.png);
+  background-image: url(../assests/a3.png);
   background-position: center;
   background-size: cover;
 }
@@ -368,7 +368,7 @@ body {
 .award .box .box4 {
   width: 300px;
   height: 300px;
-  background-image: url(/assests/a4.png);
+  background-image: url(../assests/a4.png);
   background-position: center;
   background-size: cover;
 }
@@ -454,7 +454,7 @@ body {
   cursor: pointer;
   width: 250px;
   height: 250px;
-  background-image: url(/assests/pic1.png);
+  background-image: url(../assests/pic1.png);
   background-position: center;
   background-size: cover;
 }
@@ -462,7 +462,7 @@ body {
   cursor: pointer;
   width: 250px;
   height: 250px;
-  background-image: url(/assests/pic2.png);
+  background-image: url(../assests/pic2.png);
   background-position: center;
   background-size: cover;
 }
@@ -470,7 +470,7 @@ body {
   cursor: pointer;
   width: 250px;
   height: 250px;
-  background-image: url(/assests/pic3.png);
+  background-image: url(../assests/pic3.png);
   background-position: center;
   background-size: cover;
 }
@@ -478,7 +478,7 @@ body {
   cursor: pointer;
   width: 250px;
   height: 250px;
-  background-image: url(/assests/pic4.png);
+  background-image: url(../assests/pic4.png);
   background-position: center;
   background-size: cover;
 }
@@ -486,7 +486,7 @@ body {
   cursor: pointer;
   width: 250px;
   height: 250px;
-  background-image: url(/assests/pic5.png);
+  background-image: url(../assests/pic5.png);
   background-position: center;
   background-size: cover;
 }
@@ -494,7 +494,7 @@ body {
   cursor: pointer;
   width: 250px;
   height: 250px;
-  background-image: url(/assests/pic6.png);
+  background-image: url(../assests/pic6.png);
   background-position: center;
   background-size: cover;
 }
