@@ -5,7 +5,7 @@ function showImg(picNum) {
   mod[0].style.top = document.documentElement.scrollTop - 150 + "px";
 
   if (Number(picNum) == 1) {
-    mod[0].style.backgroundImage = "url('../assests/pic1.png')";
+    mod[0].style.backgroundImage = "url(../assests/pic1.png)";
   } else if (Number(picNum) == 2) {
     mod[0].style.backgroundImage = "url('../assests/pic2.png')";
   } else if (Number(picNum) == 3) {
