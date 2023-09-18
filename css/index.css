@@ -22,7 +22,11 @@ a {
   text-decoration: none;
 }
 
-
+a:visited,
+a:hover,
+a:active{
+  color:var(--primary-color);
+}
 
 li {
   list-style: none;
@@ -178,7 +182,7 @@ body {
   }
 
   .header .menu .menu-item a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .header .menu .menu-item:nth-child(-n + 2) {
     margin-right: 20px;
@@ -196,7 +200,7 @@ body {
   }
 
   .header .menu .menu-item a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .header .menu .menu-item:nth-child(-n + 2) {
     margin-right: 10px;
