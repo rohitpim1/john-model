@@ -18,6 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 
+ul{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
 a {
   text-decoration: none;
 }
