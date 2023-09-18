@@ -27,11 +27,7 @@ a {
   text-decoration: none;
 }
 
-a:visited,
-a:hover,
-a:active{
-  color:var(--primary-color);
-}
+
 
 li {
   list-style: none;
@@ -46,6 +42,11 @@ li {
   font-weight: 800;
   color: var(--primary-color);
   cursor: pointer;
+}
+.logo a:visited,
+a:hover,
+a:active{
+  color:var(--primary-color);
 }
 
 .heading {
@@ -568,6 +569,28 @@ body {
     height: 250px;
   }
 
+  @media screen and (max-width: 425px) {
+  .galleryPage .galleryPage-pic .pic1,
+  .galleryPage .galleryPage-pic .pic2,
+  .galleryPage .galleryPage-pic .pic3,
+  .galleryPage .galleryPage-pic .pic4,
+  .galleryPage .galleryPage-pic .pic5,
+  .galleryPage .galleryPage-pic .pic6 {
+    width: 150px;
+    height: 150px;
+  }
+
+  @media screen and (max-width: 375px) {
+  .galleryPage .galleryPage-pic .pic1,
+  .galleryPage .galleryPage-pic .pic2,
+  .galleryPage .galleryPage-pic .pic3,
+  .galleryPage .galleryPage-pic .pic4,
+  .galleryPage .galleryPage-pic .pic5,
+  .galleryPage .galleryPage-pic .pic6 {
+    width: 130px;
+    height: 130px;
+  }
+  
   .mod {
     width: 100%;
     height: 800px;
